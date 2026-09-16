@@ -1,0 +1,6 @@
+path: D:\Language\Python\Py_projects\SwachhSetu\merged_dataset
+train: train/images
+val: val/images
+names:
+  0: dry
+  1: wet

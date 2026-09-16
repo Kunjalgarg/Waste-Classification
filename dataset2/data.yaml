@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 16
+names: ['B3', 'daun', 'elektronik', 'inorganic', 'kaca', 'kaleng', 'kertas', 'lampu', 'masker', 'obat', 'organic', 'plastik_botol', 'plastik_kantong', 'sisa_makanan', 'styrofoam', 'zat_kimia']
+
+roboflow:
+  workspace: syakillaas
+  project: waste-detection-d0gg0
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/syakillaas/waste-detection-d0gg0/dataset/3
