@@ -1,1 +1,6 @@
 .venv/
+
+
+# Ignore dataset directories
+dataset1/
+dataset2/
