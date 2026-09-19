@@ -1,0 +1,11 @@
+Index_Name,Original_Filename,Final_Category,Confidence_Score,Detected_Boxes_Count
+I5.jpg,images (1).jpg,WET,0.46,2
+I6.jpg,images (2).jpg,WET,0.36,3
+I7.jpg,images (3).jpg,WET,0.10,1
+I8.jpg,images (4).jpg,DRY,0.45,6
+I9.jpg,images.jpg,MIXED,N/A,0
+I10.jpg,images (1).jpg,WET,0.46,2
+I11.jpg,images (2).jpg,WET,0.36,3
+I12.jpg,images (3).jpg,WET,0.10,1
+I13.jpg,images (4).jpg,DRY,0.45,6
+I14.jpg,images.jpg,MIXED,N/A,0
