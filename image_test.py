@@ -62,7 +62,14 @@ with open(CSV_FILE_PATH, mode='a', newline='', encoding='utf-8') as csv_file:
 
         
     # image loop for checks
-    for img_path in image_files[:10]:  # Adjust slice to process more/fewer images
+    unprocessed_images = [img for img in image_files if img.name not in processed_files]
+
+    print(f"Total images found: {len(image_files)}")
+    print(f"Already processed: {len(processed_files)}")
+    print(f"New unannotated images to process: {len(unprocessed_images)}\n")
+
+    for img_path in image_files:
+        results = model.predict(str(img_path), conf=CONF_THRESHOLD, verbose=False)[0]
         if img_path.name in processed_files:
             print(f"Skipping: {img_path.name:<20} (Already processed)") # no dobara annotation
             continue

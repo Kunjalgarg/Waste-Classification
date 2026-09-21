@@ -11,7 +11,7 @@ plc_client = ModbusTcpClient('192.168.0.10', port=502)
 plc_connected = plc_client.connect()
 print("PLC Connection Status:", plc_connected)
 
-CONF_THRESHOLD = 0.60  # Detection confidence threshold
+CONF_THRESHOLD = 0.10  # Detection confidence threshold
 cap = cv2.VideoCapture(0)  # USB Camera
 
 def send_to_plc(status_code):
