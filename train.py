@@ -7,7 +7,7 @@ def train_model():
     # Start training
     results = model.train(
         data="./merged_dataset/data.yaml",
-        epochs=50,
+        epochs=200,
         imgsz=640,
         batch=16,
         workers=4,

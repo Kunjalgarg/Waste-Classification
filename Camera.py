@@ -3,7 +3,7 @@ from ultralytics import YOLO
 from pymodbus.client import ModbusTcpClient
 
 # Initialize model
-model = YOLO(r"runs\detect\SwachhSetu_Runs\waste_segregation_v1-2\weights\best.pt")
+model = YOLO(r"models\best.pt")
 
 # Connect to PLC via Ethernet (Modbus TCP)
 # Update IP address according to your PLC configuration

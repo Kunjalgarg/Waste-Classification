@@ -4,3 +4,6 @@
 # Ignore dataset directories
 dataset1/
 dataset2/
+
+
+runs/

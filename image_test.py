@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 from ultralytics import YOLO
 
-MODEL_PATH = r"runs\detect\SwachhSetu_Runs\waste_segregation_v1-2\weights\best.pt"
+MODEL_PATH = r"models\best.pt"
 model = YOLO(MODEL_PATH)  # Load model
 
 # Some more paths

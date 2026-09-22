@@ -1,0 +1,22 @@
+Index_Name,Original_Filename,Final_Category,Confidence_Score,Detected_Boxes_Count
+I1.jpg,images (1).jpg,WET,0.46,2
+I2.jpg,images (2).jpg,WET,0.36,3
+I3.jpg,images (3).jpg,WET,0.10,1
+I4.jpg,images (4).jpg,DRY,0.45,6
+I5.jpg,images.jpg,MIXED,N/A,0
+I6.jpg,IMG20260913073610.jpg,WET,0.24,1
+I7.jpg,IMG20260913101218.jpg,MIXED,N/A,0
+I8.jpg,IMG20260916081253.jpg,WET,0.31,1
+I9.jpg,IMG20260916081403.jpg,WET,0.17,1
+I10.jpg,Scanned_20260920-1142-01.jpg,DRY,0.32,4
+I11.jpg,Scanned_20260920-1142-02.jpg,WET,0.27,4
+I12.jpg,Scanned_20260920-1142-03.jpg,DRY,0.17,1
+I13.jpg,Scanned_20260920-1142-04.jpg,MIXED,N/A,0
+I14.jpg,Scanned_20260920-1142-05.jpg,WET,0.30,2
+I15.jpg,Scanned_20260920-1142-06.jpg,DRY,0.22,1
+I16.jpg,Screenshot_2026-09-20-20-09-04-33_96b26121e545231a3c569311a54cda96.jpg,WET,0.68,22
+I17.jpg,Screenshot_2026-09-20-20-09-15-10_96b26121e545231a3c569311a54cda96.jpg,MIXED,N/A,0
+I18.jpg,Screenshot_2026-09-20-20-09-25-86_96b26121e545231a3c569311a54cda96.jpg,WET,0.81,70
+I19.jpg,Screenshot_2026-09-20-20-09-35-23_96b26121e545231a3c569311a54cda96.jpg,WET,0.80,76
+I20.jpg,Screenshot_2026-09-20-20-09-43-24_96b26121e545231a3c569311a54cda96.jpg,DRY,0.55,15
+I21.jpg,Screenshot_2026-09-20-20-09-57-42_96b26121e545231a3c569311a54cda96.jpg,DRY,0.89,13
