@@ -8,7 +8,7 @@ model = YOLO(r"runs\detect\SwachhSetu_Runs\waste_segregation_v1-2\weights\best.p
 # Connect to PLC via Ethernet (Modbus TCP)
 # Update IP address according to your PLC configuration
 plc_client = ModbusTcpClient('192.168.0.10', port=502)
-plc_connected = plc_client.connect()
+plc_connected = plc_client.connect() 
 print("PLC Connection Status:", plc_connected)
 
 CONF_THRESHOLD = 0.10  # Detection confidence threshold
@@ -19,7 +19,7 @@ def send_to_plc(status_code):
     if plc_connected:
         plc_client.write_register(address=100, value=status_code)
 
-while cap.isOpened():
+while cap.isOpened(): 
     ret, frame = cap.read()
     if not ret:
         break
