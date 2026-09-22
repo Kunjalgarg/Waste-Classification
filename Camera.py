@@ -19,7 +19,7 @@ def send_to_plc(status_code):
     if plc_connected:
         plc_client.write_register(address=100, value=status_code)
 
-while cap.isOpened():
+while cap.isOpened(): 
     ret, frame = cap.read()
     if not ret:
         break
